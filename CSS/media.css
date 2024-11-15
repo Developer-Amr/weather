@@ -1,0 +1,22 @@
+@media (max-width: 769px){
+    .today .details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5px 0;
+    }
+}
+@media (max-width: 993px){
+    .today .degree{
+        font-size: 45px;
+    }
+    .subscribe input{
+        margin: 0 !important;
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+    footer p{
+        margin: auto;
+        max-width: 75% !important;
+    }
+}

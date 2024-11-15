@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color: #1e202b;
+    height: auto !important;
+}
+nav span{
+    font-size: 12px !important;
+}
+.nav-item a{
+    color: white !important;
+    transition: all 0.5s;
+}
+nav .nav-item .active{
+    color: #009ad8 !important;
+    border-radius: 49%;
+}
+.nav-item a:hover{
+    color: #009ad8 !important;
+    border-radius: 49%;
+}
+/* end navbar */
+
+/* start weather */
+main{
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bunner.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+input{
+    background-color: #1e202b !important;
+    color: white !important;
+    border: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+input::placeholder{
+    color: #ffffff80 !important;
+}
+.search{
+    position: relative;
+}
+.search button{
+    background-color: #009ad8 !important;
+    top: 36%;
+    right: 2%;
+    position: absolute;
+}
+.card{
+    border: none !important;
+}
+.today .card-header, .after-tomorrow .card-header{
+    background-color: #2d303d;;
+}
+.today .card-body, .after-tomorrow .card-body{
+    background-color: #323544;
+}
+.tomorrow .card-header{
+    background-color: #222531;
+}
+.tomorrow .card-body{
+    background-color: #262936;
+}
+p{
+    color: #ffffff80;
+}
+.today .city{
+    color: #ffffff80;
+    font-size: 20px;
+}
+.today .degree{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+}
+span{
+    color: #009ad8;
+}
+.today .details span{
+    color: #ffffff80;
+}
+.tomorrow .degree, .after-tomorrow .degree{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* end weather */
+
+/* start footer */
+footer{
+    background-color: #262936;
+}
+.subscribe{
+    position: relative;
+}
+.subscribe button{
+    background-color: #009ad8 !important;
+    top: 13%;
+    right: 1%;
+    position: absolute;
+}
